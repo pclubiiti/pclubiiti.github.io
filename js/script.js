@@ -182,7 +182,7 @@ members = [
     imagealt:"vineetshah",
     name:"Vineet Shah",
     domain:"Competitive Coding",
-    desig:"BTech 3nd Year",
+    desig:"BTech 3rd Year",
     link:"#"
   },
   {
@@ -190,7 +190,7 @@ members = [
     imagealt:"mohitmohta",
     name:"Mohit Mohta",
     domain:"Software Development",
-    desig:"BTech 3nd Year",
+    desig:"BTech 3rd Year",
     link:"#"
   },
   {
@@ -198,7 +198,7 @@ members = [
     imagealt:"kunalgupta",
     name:"Kunal Gupta",
     domain:"Web Security",
-    desig:"BTech 3nd Year",
+    desig:"BTech 3rd Year",
     link:"#"
   },
   {
@@ -206,9 +206,82 @@ members = [
     imagealt:"adityajain",
     name:"Aditya Jain",
     domain:"Machine Learning",
+    desig:"BTech 3rd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/blank.png",
+    imagealt:"rohit_ranjan",
+    name:"Rohit Ranjan",
+    domain:"Competitive Programming",
+    desig:"BTech 3rd Year",
+    link:"#"
+  },
+    {
+    image:"img/members/bhor_verma.jpg",
+    imagealt:"bhor_verma",
+    name:"Bhor Verma",
+    domain:"Cyber Security",
     desig:"BTech 3nd Year",
     link:"#"
   },
+  {
+    image:"img/members/ankit_gaur.jpg",
+    imagealt:"ankit_gaur",
+    name:"Ankit Gaur",
+    domain:"Android App Development",
+    desig:"BTech 3rd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/blank.png",
+    imagealt:"kumar_abhinav",
+    name:"Kumar Abhinav",
+    domain:"Competitive Coding",
+    desig:"BTech 2nd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/blank.png",
+    imagealt:"gvs_akhil",
+    name:"GVS Akhil",
+    domain:"Competitive Programming",
+    desig:"BTech 2nd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/mohit_nathrani.jpg",
+    imagealt:"mohit_nathrani",
+    name:"Mohit Nathrani",
+    domain:"Web Development and Competitive Programming",
+    desig:"BTech 2nd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/ashutosh_bang.JPG",
+    imagealt:"ashutosh_bang",
+    name:"Ashutosh Bang",
+    domain:"Competitive Programming",
+    desig:"BTech 2nd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/joshi_niranjan.jpg",
+    imagealt:"joshi_niranjan",
+    name:"Joshi Niranjan",
+    domain:"Web and Software Development",
+    desig:"BTech 2nd Year",
+    link:"#"
+  },
+  
+  {
+    image:"img/members/daanish_mahajan.jpg",
+    imagealt:"daanish_mahajan",
+    name:"Daanish Mahajan",
+    domain:"Competitive Programming",
+    desig:"BTech 2nd Year",
+    link:"#",
+  }, 
   {
     image:"img/members/kanishkarj.jpe",
     imagealt:"kanishkarj",
@@ -217,6 +290,81 @@ members = [
     desig:"BTech 2nd Year",
     link:"https://github.com/kanishkarj",
   },
+  {
+    image:"img/members/saksham_tanwar.jpg",
+    imagealt:"saksham_tanwar",
+    name:"Saksham Tanwar",
+    domain:"Competitive Programming",
+    desig:"BTech 1st Year",
+    link:"#"
+  },
+  
+  {
+    image:"img/members/vishnunarayan.jpg",
+    imagealt:"vishnunarayan",
+    name:"Vishnunarayan K I",
+    domain:"Competitive Programming",
+    desig:"BTech 1st Year",
+    link:"#",
+  },  {
+    image:"img/members/sparsh_bansal.jpg",
+    imagealt:"sparsh_bansal",
+    name:"Sparsh Bansal",
+    domain:"Competitive Coding",
+    desig:"BTech 1st Year",
+    link:"#"
+  },
+  {
+    image:"img/members/mrigank_krishan.jpg",
+    imagealt:"mrigank_krishan",
+    name:"Mrigank Krishan",
+    domain:"Web Development",
+    desig:"BTech 1st Year",
+    link:"#"
+  },
+  {
+    image:"img/members/divyansh_choudhary.JPG",
+    imagealt:"divyansh_choudhary",
+    name:"Divyansh Choudhary",
+    domain:"Competitive Programming",
+    desig:"BTech 1st Year",
+    link:"#"
+  },
+  {
+    image:"img/members/varun_patil.jpg",
+    imagealt:"varun_patil",
+    name:"Varun Patil",
+    domain:"Competitive Programming",
+    desig:"BTech 1st Year",
+    link:"#"
+  },
+   
+  
+  {
+    image:"img/members/blank.png",
+    imagealt:"pratik_jain",
+    name:"Pratik Jain",
+    domain:"Competitive Programming",
+    desig:"BTech 1st Year",
+    link:"#"
+  },
+  {
+    image:"img/members/blank.png",
+    imagealt:"vandan_agarwal",
+    name:"Vandan Agarwal",
+    domain:"Competitive Programming",
+    desig:"BTech 1st Year",
+    link:"#"
+  },
+  {
+    image:"img/members/blank.png",
+    imagealt:"aneesh_nema",
+    name:"Aneesh Nema",
+    domain:"Development",
+    desig:"BTech 1st Year",
+    link:"#",
+  },  
+  
 ];
 
 ProjectPageItems =  [
