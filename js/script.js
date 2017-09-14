@@ -105,7 +105,7 @@ WeeklyChallenges=[
       {
         title:"Error Minimisation",
         subtitle:"Find the parameters so that the error is minimised",
-        author:"Arjun Srivastav",
+        author:"Arjun Srivastava",
         modalhref: '#weeklychalModal1',
         modalhreftitle: 'weeklychalModal1',
         content:"Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam feels that the two numbers are (approximately) linearly related by Y=m*X+c.Your job is to find m and c such that the error between predicted Y and the real Y is minimised.The error on one example is given by (Y-m*X+c)^2 , total error is the sum of the individual errors.",
@@ -129,7 +129,7 @@ WeeklyChallenges=[
       {
         title:"Predicting Cancer",
         subtitle:"Predict whether a new example is malignant or not",
-        author:"Arjun Srivastav",
+        author:"Arjun Srivastava",
         modalhref: '#weeklychalModal4',
         modalhreftitle: 'weeklychalModal4',
         content:"As this is the first week of our weekly questions series.We thought we would start with something easy, Predicting Cancer.Head over <a href= 'https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)'>[here]</a> to read about the dataset you would use.You should write code to predict wether a  new example is malignant or not.You can submit a Jupyter Notebook for the same. the winners would be decide next sunday.Happy Learning.Things to google: sklearn trees, train and test data, jupyter notebook, pandas, numpy.dataset",
@@ -452,7 +452,7 @@ var mainNav = new Vue({
       },
       { 
         title:'Blog',
-        href:'#blog' 
+        href:'/blog' 
       },
       { 
         title:'About',
@@ -535,16 +535,20 @@ var Footer = new Vue({
     copyright: 'Copyright &copy; Daemon Labs 2017',
     items: [
       { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
         link: 'mailto:progclub@iiti.ac.in',
         icon: 'fa fa-fw fa-envelope' 
       },
       { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
         link: 'https://github.com/DaemonLab',
         icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
       },
     ]
   }
