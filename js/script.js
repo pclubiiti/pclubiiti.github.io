@@ -157,7 +157,7 @@ members = [
     image:"img/members/vineetshah.jpe",
     imagealt:"vineetshah",
     name:"Vineet Shah",
-    domain:"Competitive Coding",
+    domain:"Competitive Programming",
     desig:"President",
     social: [
       { 
@@ -221,7 +221,7 @@ members = [
     imagealt:"adityajain",
     name:"Aditya Jain",
     domain:"Machine Learning And Competitive Programming",
-    desig:"Convenor for Algorithms",
+    desig:"Convenor for Data Structures and Algorithms",
     social: [
       { 
         link: 'https://github.com/DaemonLab',
