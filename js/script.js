@@ -179,7 +179,7 @@ members = [
     imagealt:"mohitmohta",
     name:"Mohit Mohta",
     domain:"Software Development",
-    desig:"Conveyor for development",
+    desig:"Convenor for development",
     social: [
       { 
         link: 'https://github.com/DaemonLab',
@@ -200,7 +200,7 @@ members = [
     imagealt:"kunalgupta",
     name:"Kunal Gupta",
     domain:"Cyber Security",
-    desig:"Conveyor for Security",
+    desig:"Convenor for Security",
     social: [
       { 
         link: 'https://github.com/DaemonLab',
@@ -221,7 +221,7 @@ members = [
     imagealt:"adityajain",
     name:"Aditya Jain",
     domain:"Machine Learning And Competitive Programming",
-    desig:"Conveyor for Algorithms",
+    desig:"Convenor for Algorithms",
     social: [
       { 
         link: 'https://github.com/DaemonLab',
