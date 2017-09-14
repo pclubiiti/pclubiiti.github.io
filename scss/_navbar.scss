@@ -1,4 +1,12 @@
 // Styling for the navbar
+@media(max-width:724px){
+  #mainNav{
+    .navbar-brand {
+      display: none!important;
+    }
+  }
+}
+
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;

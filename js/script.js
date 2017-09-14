@@ -69,18 +69,18 @@ HomePageItems =  [
     modalhref: '#projectModal1',
     modalhreftitle: 'projectModal1',
     title: 'Infinite Runner',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'The game is an infinite runner with the main objective of collecting as many bananas as possible. The game uses Unity Engine.',
     github: 'https://github.com/sreevatsank1999/Project_M',
     date: '21st july 2017', 
-    domain: 'Game Development', 
+    domain: 'Game Development',  
   },
   { 
     image: 'img/project/web1.svg',
     imagealt: 'web1',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    modalhref: '#projectModal2',
+    modalhreftitle: 'projectModal2',
     title: 'Q and A forum',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/Mohit-Nathrani/question-answer-site',
     date: '21st july 2017', 
     domain: 'Full Stack Development', 
@@ -88,10 +88,10 @@ HomePageItems =  [
   { 
     image: 'img/project/software1.svg',
     imagealt: 'software1',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    modalhref: '#projectModal3',
+    modalhreftitle: 'projectModal3',
     title: 'Rave Media Player',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'A media player with an intuitive media library management capabilities built on Python and Qt.',
     github: 'https://github.com/kanishkarj/rave',
     date: '21st july 2017', 
     domain: 'Software Development', 
@@ -173,25 +173,7 @@ WeeklyChallenges=[
     ]
   },
   {
-    date:"10th sept 2017",
-    items:[
-      {
-        title:"Lorem Ipsum",
-        subtitle:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-        author:"Lipsum",
-        modalhref: '#weeklychalModal6',
-        modalhreftitle: 'weeklychalModal6',
-        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum arcu ut justo pulvinar, at placerat tortor rutrum. Pellentesque sodales est id orci elementum bibendum. In hac habitasse platea dictumst. In sagittis ut dolor a ornare. Vivamus feugiat imperdiet lorem ac lobortis. Donec mattis orci augue, accumsan pretium metus sagittis at. Phasellus mattis sagittis aliquam. Duis justo sem, semper in leo vel, gravida ullamcorper nulla. Morbi nisi orci, eleifend id sapien vehicula, venenatis ornare urna. ",
-      },
-      {
-        title:"Lorem Ipsum",
-        subtitle:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-        author:"Mrigank Krishan",
-        modalhref: '#weeklychalModal7',
-        modalhreftitle: 'weeklychalModal7',
-        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum arcu ut justo pulvinar, at placerat tortor rutrum. Pellentesque sodales est id orci elementum bibendum. In hac habitasse platea dictumst. In sagittis ut dolor a ornare. Vivamus feugiat imperdiet lorem ac lobortis. Donec mattis orci augue, accumsan pretium metus sagittis at. Phasellus mattis sagittis aliquam. Duis justo sem, semper in leo vel, gravida ullamcorper nulla. Morbi nisi orci, eleifend id sapien vehicula, venenatis ornare urna. ",
-      },
-    ]
+   
   },
 ]
 
@@ -202,7 +184,7 @@ members = [
     name:"Vineet Shah",
     domain:"Competitive Coding",
     desig:"BTech 3rd Year",
-    link:"#"
+    link:"google.com"
   },
   {
     image:"img/members/mohitmohta.jpg",
@@ -474,6 +456,32 @@ ProjectPageItems =  [
   },
 ];
 
+var mainNav = new Vue({
+  el: '#mainNav',
+  data: {
+    header: 'The Programming club',
+    items: [
+      { 
+        title:'Projects',
+        href:'projects.html' 
+      },
+      { 
+        title:'Weekly Challenges',
+        href:'weekly-chal.html' 
+      },
+      { 
+        title:'Blog',
+        href:'#blog' 
+      },
+      { 
+        title:'About',
+        href:'about.html' 
+      },
+     
+    ]
+  }
+  
+});
 var About = new Vue({
   el: '#about',
   data: {

@@ -1,273 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
 
-    <title>The Programming club</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <title>The Programming club</title>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/main.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  </head>
+  <!-- Custom styles for this template -->
+  <link href="css/main.min.css" rel="stylesheet">
 
-  <body id="page-top">
+</head>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">The Programming club</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">{{header}}</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="weekly-chal.html">Weekly Challenges</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#footer">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" v-for="item in items">
+            <a class="nav-link js-scroll-trigger" :href="item.href">{{item.title}}</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <img class="img-fluid" src="img/profile.png" alt="">
-        <div class="intro-text">
-          <span class="name">{{title}}</span>
-          <span class="skills">{{subtitle}}</span>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <img class="img-fluid" src="img/profile.png" alt="">
+      <div class="intro-text">
+        <span class="name">{{title}}</span>
+        <span class="skills">{{subtitle}}</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- project Grid Section -->
+  <section id="project" class="project">
+    <div class="container">
+      <h2 class="text-center">Projects</h2>
+      <hr class="underline">
+      <br>
+      <div class="row">
+        <div class="col-sm-4 project-item" v-for="item in items" :item="item">
+          <a class="project-link" :href="item.modalhref" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <div class="img-container">
+              <img class="img-fluid img-center" :src="item.image" alt="item.imagealt">
+              <h4>{{item.title}}</h4>
+            </div>
+          </a>
         </div>
       </div>
-    </header>
-    
-    <!-- project Grid Section -->
-    <section id="project" class="project">   
-      <div class="container">
-        <h2 class="text-center">Projects</h2>
-        <hr class="star-primary">
-        <div class="row">
-          <div class="col-sm-4 project-item" v-for="item in items" :item="item">
-            <a class="project-link" :href="item.modalhref" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <div class="img-container">
-                  <img class="img-fluid img-center" :src="item.image" alt="item.imagealt">
-                  <h4>{{item.title}}</h4>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-8 mx-auto text-center">
-            <a href="projects.html" class="btn btn-lg btn-info">
+      <div class="col-lg-8 mx-auto text-center">
+        <a href="projects.html" class="btn btn-lg btn-info">
               <i class="fa fa-code"></i>
               See More
             </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Weekly Challenges Grid Section -->
+  <section id="weeklychal" class="project ">
+    <div class="container">
+      <h2 class="text-center">Weekly Challenges</h2>
+      <hr class="underline">
+      <div class="row">
+        <div class="col-sm-4 project-item" v-for="item in items" :item="item">
+          <a class="project-link" :href="item.modalhref" data-toggle="modal">
+            <div class="img-container">
+              <span class="about-item-title">{{item.title}}</span>
+              <br>
+              <hr>
+              <span class="about-item-author">{{item.author}}</span>
+              <br><br>
+              <span class="about-item-subtitle">{{item.subtitle}}</span><br>
+            </div>
+          </a>
         </div>
       </div>
-    </section>
-
-    <!-- Weekly Challenges Grid Section -->
-    <section id="weeklychal" class="project">
-      <div class="container">
-          <h2 class="text-center">Weekly Challenges</h2>
-          <hr class="star-primary">
-          <div class="row">
-            <div class="col-sm-4 project-item" v-for="item in items" :item="item">
-              <a class="project-link" :href="item.modalhref" data-toggle="modal">
-                <div class="img-container">
-                    <span class="about-item-title">{{item.title}}</span>
-                    <br>
-                    <hr>
-                    <span class="about-item-author">{{item.author}}</span>
-                    <br><br>
-                    <span class="about-item-subtitle">{{item.subtitle}}</span><br>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 mx-auto text-center">
-              <a href="weekly-chal.html" class="btn btn-lg btn-info">
+      <div class="col-lg-8 mx-auto text-center">
+        <a href="weekly-chal.html" class="btn btn-lg btn-info">
                 <i class="fa fa-caret-square-o-down"></i>
                 See More
               </a>
-          </div>
       </div>
+    </div>
   </section>
 
+ 
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-          <h2 class="text-center">About</h2>
-          <hr class="star-light">
-          <div class="row content">
-            <div class="row">
-              <div class="row snip-container">
-                  <figure :href="item.link" target="_blank" class="col-sm-3 abt-cont" v-for="item in members">
-                      <img :src="item.image" :alt="item.imagealt" class="img-fluid rounded-circle"/>
-                      <center><h4>{{item.name}}</h4></center>
-                      <a ></a>
-                  </figure>
-              </div>
-            </div>
-        </div>
-    </section>
-  
-    <!-- Footer -->
-    <footer id="footer" class="text-center">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col col-md-6">
-              <h3>Location</h3>
-              <p v-html="location">
-              </p>
-            </div>
-            <div class="footer-col col-md-6">
-              <h3>Around the Web</h3>
-              <ul class="list-inline">
-                  <li class="list-inline-item" v-for="item in items">
-                      <a class="btn-social btn-outline" :href="item.link">
+  <!-- Footer -->
+  <footer id="footer" class="text-center">
+    <div class="footer-above">
+      <div class="container">
+          <h2 class="text-center">About Us</h2>
+          <hr class="underline">
+          
+        <div class="row">
+          <div class="footer-col col-md-4">
+            <h3>Location</h3>
+            <p v-html="location">
+            </p>
+          </div>
+          <div class="col-md-4 footer-col">
+              <a href="about.html" class="btn btn-lg btn-info">
+                  <i class="fa fa-users"></i>
+                    Meet the team
+                  </a>
+          </div>
+          <div class="footer-col col-md-4">
+            <h3>Around the Web</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item" v-for="item in items">
+                <a class="btn-social btn-outline" :href="item.link">
                         <i :class="item.icon" aria-hidden="true" target="_blank"></i>
                       </a>
-                  </li>
-              </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+  </footer>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top d-lg-none">
+    <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+  </div>
+
+  <!-- Weekly Challenges Modals -->
+  <div id="weeklychalmodal" class="projectmodal">
+    <div v-for="item in items" class="project-modal modal fade" :id="item.modalhreftitle" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>{{item.title}}</h2>
+                  <hr class="underline">
+                  <span class="about-item-author">{{item.author}}</span>
+                  <br>
+                  <span class="about-item-subtitle">"{{item.subtitle}}"</span><br><br>
+                  <p v-html="item.content"></p>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                        <i class="fa fa-times"></i>
+                        Close</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top d-lg-none">
-      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
     </div>
+  </div>
 
-    <!-- Weekly Challenges Modals -->
-    <div id="weeklychalmodal" class="projectmodal">
-      <div v-for="item in items" class="project-modal modal fade" :id="item.modalhreftitle" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                  <div class="rl"></div>
-                </div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-8 mx-auto">
-                    <div class="modal-body">
-                      <h2>{{item.title}}</h2>
-                      <hr class="star-primary">
-                      <span class="about-item-author">{{item.author}}</span>
-                      <br>
-                      <span class="about-item-subtitle">"{{item.subtitle}}"</span><br><br>
-                      <p v-html="item.content"></p>
-                      <button class="btn btn-success" type="button" data-dismiss="modal">
-                        <i class="fa fa-times"></i>
-                        Close</button>
-                    </div>
-                  </div>
+  <!-- project Modals -->
+  <div id="projectmodal" class="projectmodal">
+    <div v-for="item in items" class="project-modal modal fade" :id="item.modalhreftitle" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>{{item.title}}</h2>
+                  <hr class="underline">
+                  <br>
+                  <br>
+                  <img class="img-fluid img-centered" :src="item.image" :alt="item.imagealt">
+                  <p v-html="item.content"></p>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>Domain: </strong> {{item.domain}}
+                    </li>
+                    <li>
+                      <strong>Date: </strong> {{item.date}}
+                    </li>
+                    <li>
+                      <strong>GitHub: </strong>
+                      <a :href="item.github" target="_blank">Repository</a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                          <i class="fa fa-times"></i>
+                          Close</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
   </div>
 
-    <!-- project Modals -->
-    <div id="projectmodal" class="projectmodal">
-        <div v-for="item in items" class="project-modal modal fade" :id="item.modalhreftitle" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                    <div class="rl"></div>
-                  </div>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                      <div class="modal-body">
-                        <h2>{{item.title}}</h2>
-                        <hr class="star-primary">
-                        <img class="img-fluid img-centered" :src="item.image" :alt="item.imagealt">
-                        <p v-html="item.content"></p>
-                        <ul class="list-inline item-details">
-                          <li>
-                              <strong>Domain: </strong>
-                              {{item.domain}}
-                          </li>
-                          <li>
-                              <strong>Date: </strong>
-                              {{item.date}}
-                          </li>
-                          <li>
-                              <strong>GitHub: </strong>
-                              <a :href="item.github" target="_blank">Repository</a>
-                          </li>
-                        </ul>
-                        <button class="btn btn-success" type="button" data-dismiss="modal">
-                          <i class="fa fa-times"></i>
-                          Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
+  <!-- Vue Js Scripts-->
+  <script src="vendor/vue/vue.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/script.min.js"></script>
 
 
 
-    <!-- Vue Js Scripts-->
-    <script src="vendor/vue/vue.js"></script>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/script.min.js"></script>
-
-    
-
-  </body>
+</body>
 
 </html>
