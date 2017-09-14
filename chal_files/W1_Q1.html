@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge 1</title>
+</head>
+
+<body>
+    <center>
+        <h3>Hello, Friends</h3>
+        <p>
+            Here is a simple problem to introduce you guys to the "console".<br>
+			Press F12 on your keyboard to open "Developer Tools" and start exploring...
+			<br> You have to find the correct password.
+            <form action="" onsubmit="formSubmitted()">
+                <input type="text" name="input"  size="100"><br>
+                <input type="submit">
+            </form>
+        </p>
+    </center>
+</body>
+
+<script>
+    function formSubmitted(){
+        var pass="WELCOME_TO_THE_CONSOLE";
+        if(document.getElementsByName("input")[0].value == pass){
+            alert("Good, you cracked it !!");
+            window.location="2.html";
+        }else{
+            alert("Oops ! no guesses, try again... ");
+        }
+        return false;
+    }
+</script>
+
+</html>

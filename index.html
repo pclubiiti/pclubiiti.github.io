@@ -132,10 +132,10 @@
           <div class="row content">
             <div class="row">
               <div class="row snip-container">
-                  <figure class="snip1566 " v-for="item in members">
-                      <img :src="item.image" :alt="item.imagealt" />
-                      <figcaption><i>{{item.name}}</i></figcaption>
-                      <a :href="item.link" target="_blank"></a>
+                  <figure :href="item.link" target="_blank" class="col-sm-3 abt-cont" v-for="item in members">
+                      <img :src="item.image" :alt="item.imagealt" class="img-fluid rounded-circle"/>
+                      <center><h4>{{item.name}}</h4></center>
+                      <a ></a>
                   </figure>
               </div>
             </div>

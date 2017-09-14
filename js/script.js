@@ -123,12 +123,7 @@ Headmembers = [
     name:"Aditya Jain",
     link:"#"
   },
-  {
-    image:"img/members/kunalgupta.jpeg",
-    imagealt:"kunalgupta",
-    name:"Kunal Gupta",
-    link:"#"
-  },
+  
 ];
 
 WeeklyChallenges=[
@@ -136,20 +131,44 @@ WeeklyChallenges=[
     date:"11th sept 2017",
     items:[
       {
-        title:"Lorem Ipsum",
-        subtitle:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-        author:"Lipsum",
+        title:"Error Minimisation",
+        subtitle:"Find the parameters so that the error is minimised",
+        author:"Arjun Srivastav",
         modalhref: '#weeklychalModal1',
         modalhreftitle: 'weeklychalModal1',
-        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum arcu ut justo pulvinar, at placerat tortor rutrum. Pellentesque sodales est id orci elementum bibendum. In hac habitasse platea dictumst. In sagittis ut dolor a ornare. Vivamus feugiat imperdiet lorem ac lobortis. Donec mattis orci augue, accumsan pretium metus sagittis at. Phasellus mattis sagittis aliquam. Duis justo sem, semper in leo vel, gravida ullamcorper nulla. Morbi nisi orci, eleifend id sapien vehicula, venenatis ornare urna. ",
+        content:"Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam feels that the two numbers are (approximately) linearly related by Y=m*X+c.Your job is to find m and c such that the error between predicted Y and the real Y is minimised.The error on one example is given by (Y-m*X+c)^2 , total error is the sum of the individual errors.",
       },
       {
-        title:"Lorem Ipsum",
-        subtitle:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-        author:"Lipsum",
+        title:"Pythagorean Triplets",
+        subtitle:"Print all the Pythagorean Triplets less than N",
+        author:"Varun Patil",
         modalhref: '#weeklychalModal2',
         modalhreftitle: 'weeklychalModal2',
-        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum arcu ut justo pulvinar, at placerat tortor rutrum. Pellentesque sodales est id orci elementum bibendum. In hac habitasse platea dictumst. In sagittis ut dolor a ornare. Vivamus feugiat imperdiet lorem ac lobortis. Donec mattis orci augue, accumsan pretium metus sagittis at. Phasellus mattis sagittis aliquam. Duis justo sem, semper in leo vel, gravida ullamcorper nulla. Morbi nisi orci, eleifend id sapien vehicula, venenatis ornare urna. ",
+        content:"Print all Pythagorean triplets with sides less than a number N.Take N from user.Ask whether user wants only refined triplets or all triplets and print accordingly. (Refined triplets meaning 6,8,10 or 9,12,15 etc wont be counted because they are an integer multiple of 3,4,5.ie integer multiples of Base triplets should not be printed)",
+      },
+      {
+        title:"Web Console",
+        subtitle:"Hello, Friends",
+        author:"Mrigank Krishnan",
+        modalhref: '#weeklychalModal3',
+        modalhreftitle: 'weeklychalModal3',
+        content:"Here is a simple problem to introduce you guys to the 'console'.<br>Press F12 on your keyboard to open 'Developer Tools and start exploring...<br> You have to find the correct password.<br><br><div class='col-lg-8 mx-auto text-center'><a href='chal_files/W1_Q1.html' class='btn btn-lg btn-info'><i class='fa fa-code'></i>Proceed</a></div>",
+      },
+      {
+        title:"Predicting Cancer",
+        subtitle:"Predict whether a new example is malignant or not",
+        author:"Arjun Srivastav",
+        modalhref: '#weeklychalModal4',
+        modalhreftitle: 'weeklychalModal4',
+        content:"As this is the first week of our weekly questions series.We thought we would start with something easy, Predicting Cancer.Head over <a href= 'https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)'>[here]</a> to read about the dataset you would use.You should write code to predict wether a  new example is malignant or not.You can submit a Jupyter Notebook for the same. the winners would be decide next sunday.Happy Learning.Things to google: sklearn trees, train and test data, jupyter notebook, pandas, numpy.dataset",
+      },
+      {
+        title:"Web Console, again",
+        subtitle:"Some more Exploration.",
+        author:"Mrigank Krishnan",
+        modalhref: '#weeklychalModal5',
+        modalhreftitle: 'weeklychalModal5',
+        content:"Now you'll have to make use of breakpoints to crack this one..<br><br> <div class='col-lg-8 mx-auto text-center'><a href='chal_files/W1_Q2.html' class='btn btn-lg btn-info'><i class='fa fa-code'></i>Proceed</a></div>",
       },
     ]
   },
@@ -160,16 +179,16 @@ WeeklyChallenges=[
         title:"Lorem Ipsum",
         subtitle:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
         author:"Lipsum",
-        modalhref: '#weeklychalModal1',
-        modalhreftitle: 'weeklychalModal1',
+        modalhref: '#weeklychalModal6',
+        modalhreftitle: 'weeklychalModal6',
         content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum arcu ut justo pulvinar, at placerat tortor rutrum. Pellentesque sodales est id orci elementum bibendum. In hac habitasse platea dictumst. In sagittis ut dolor a ornare. Vivamus feugiat imperdiet lorem ac lobortis. Donec mattis orci augue, accumsan pretium metus sagittis at. Phasellus mattis sagittis aliquam. Duis justo sem, semper in leo vel, gravida ullamcorper nulla. Morbi nisi orci, eleifend id sapien vehicula, venenatis ornare urna. ",
       },
       {
         title:"Lorem Ipsum",
         subtitle:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-        author:"Lipsum",
-        modalhref: '#weeklychalModal2',
-        modalhreftitle: 'weeklychalModal2',
+        author:"Mrigank Krishan",
+        modalhref: '#weeklychalModal7',
+        modalhreftitle: 'weeklychalModal7',
         content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum arcu ut justo pulvinar, at placerat tortor rutrum. Pellentesque sodales est id orci elementum bibendum. In hac habitasse platea dictumst. In sagittis ut dolor a ornare. Vivamus feugiat imperdiet lorem ac lobortis. Donec mattis orci augue, accumsan pretium metus sagittis at. Phasellus mattis sagittis aliquam. Duis justo sem, semper in leo vel, gravida ullamcorper nulla. Morbi nisi orci, eleifend id sapien vehicula, venenatis ornare urna. ",
       },
     ]
@@ -213,6 +232,14 @@ members = [
     image:"img/members/blank.png",
     imagealt:"rohit_ranjan",
     name:"Rohit Ranjan",
+    domain:"Competitive Programming",
+    desig:"BTech 3rd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/tapish_singh.jpeg",
+    imagealt:"tapish_singh",
+    name:"Tapish Singh",
     domain:"Competitive Programming",
     desig:"BTech 3rd Year",
     link:"#"
@@ -374,7 +401,7 @@ ProjectPageItems =  [
     modalhref: '#projectModal1',
     modalhreftitle: 'projectModal1',
     title: 'Infinite Runner',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'The game is an infinite runner with the main objective of collecting as many bananas as possible. The game uses Unity Engine.',
     github: 'https://github.com/sreevatsank1999/Project_M',
     date: '21st july 2017', 
     domain: 'Game Development', 
@@ -382,10 +409,10 @@ ProjectPageItems =  [
   { 
     image: 'img/project/web1.svg',
     imagealt: 'web1',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    modalhref: '#projectModal2',
+    modalhreftitle: 'projectModal2',
     title: 'Q and A forum',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/Mohit-Nathrani/question-answer-site',
     date: '21st july 2017', 
     domain: 'Full Stack Development', 
@@ -393,10 +420,10 @@ ProjectPageItems =  [
   { 
     image: 'img/project/software1.svg',
     imagealt: 'software1',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    modalhref: '#projectModal3',
+    modalhreftitle: 'projectModal3',
     title: 'Rave Media Player',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'A media player with an intuitive media library management capabilities built on Python and Qt.',
     github: 'https://github.com/kanishkarj/rave',
     date: '21st july 2017', 
     domain: 'Software Development', 
@@ -404,21 +431,21 @@ ProjectPageItems =  [
   { 
     image: 'img/project/web2.svg',
     imagealt: 'web1',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    modalhref: '#projectModal4',
+    modalhreftitle: 'projectModal4',
     title: 'Local Quora',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/Harsh860/IITI-SOC',
     date: '21st july 2017', 
     domain: 'Full Stack Development', 
   },
   { 
     image: 'img/project/web3.svg',
-    imagealt: 'web1',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    imagealt: 'web3',
+    modalhref: '#projectModal5',
+    modalhreftitle: 'projectModal5',
     title: 'Query',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/kpranav1998/soc-project',
     date: '21st july 2017', 
     domain: 'Full Stack Development', 
@@ -426,10 +453,10 @@ ProjectPageItems =  [
   { 
     image: 'img/project/software2.svg',
     imagealt: 'Software2',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    modalhref: '#projectModal6',
+    modalhreftitle: 'projectModal6',
     title: 'Javafx Media Player',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'Music player built using JavaFX stylized using CSS sheets. The player can be used to pause/play and reload songs.',
     github: 'https://github.com/eltoro007/MediaPlayer',
     date: '21st july 2017', 
     domain: 'Software Development', 
@@ -437,10 +464,10 @@ ProjectPageItems =  [
   { 
     image: 'img/project/ml1.svg',
     imagealt: 'ml1',
-    modalhref: '#projectModal1',
-    modalhreftitle: 'projectModal1',
+    modalhref: '#projectModal7',
+    modalhreftitle: 'projectModal7',
     title: 'Computer learns to play mario.',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rutrum convallis felis, id ultrices ipsum egestas et. Vestibulum eu consequat est. Pellentesque ultrices varius vestibulum. Ut eget massa nisi. Vestibulum augue enim, imperdiet rutrum libero a, feugiat tristique velit. Aliquam sollicitudin sit amet neque et aliquam. Aliquam vestibulum orci in elit lacinia, a suscipit libero euismod.',
+    content: 'A machine learning algorithm that successfully learns to play Super Mario 64, after learning from test runs played by us.',
     github: 'https://github.com/Mohit-Nathrani/question-answer-site',
     date: '21st july 2017', 
     domain: 'Machine Learning', 
@@ -494,14 +521,14 @@ var ProjectModalPP = new Vue({
 var weeklychal = new Vue({
   el: '#weeklychal',
   data: {
-    items:WeeklyChallenges[1].items
+    items:WeeklyChallenges[0].items
   }
 })
 
 var weeklychalmodal = new Vue({
   el: '#weeklychalmodal',
   data: {
-    items:WeeklyChallenges[1].items
+    items:WeeklyChallenges[0].items
   }
 })
 
@@ -515,7 +542,7 @@ var weeklychalWCP = new Vue({
 var weeklychalmodalWCP = new Vue({
   el: '#weeklychalmodalWCP',
   data: {
-    items:WeeklyChallenges[1].items
+    items:WeeklyChallenges
   }
 })
 
