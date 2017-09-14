@@ -98,34 +98,6 @@ HomePageItems =  [
   },
 ];
 
-Headmembers = [
-  {
-    image:"img/members/vineetshah.jpe",
-    imagealt:"vineetshah",
-    name:"Vineet Shah",
-    link:"#"
-  },
-  {
-    image:"img/members/mohitmohta.jpg",
-    imagealt:"mohitmohta",
-    name:"Mohit Mohta",
-    link:"#"
-  },
-  {
-    image:"img/members/kunalgupta.jpeg",
-    imagealt:"kunalgupta",
-    name:"Kunal Gupta",
-    link:"#"
-  },
-  {
-    image:"img/members/adityajain.jpe",
-    imagealt:"adityajain",
-    name:"Aditya Jain",
-    link:"#"
-  },
-  
-];
-
 WeeklyChallenges=[
   {
     date:"11th sept 2017",
@@ -243,6 +215,14 @@ members = [
     link:"#"
   },
   {
+    image:"img/members/kanishkarj.jpe",
+    imagealt:"kanishkarj",
+    name:"Kanishkar J",
+    domain:"Full Stack Development",
+    desig:"BTech 2nd Year",
+    link:"https://github.com/kanishkarj",
+  },
+  {
     image:"img/members/blank.png",
     imagealt:"kumar_abhinav",
     name:"Kumar Abhinav",
@@ -255,6 +235,14 @@ members = [
     imagealt:"gvs_akhil",
     name:"GVS Akhil",
     domain:"Competitive Programming",
+    desig:"BTech 2nd Year",
+    link:"#"
+  },
+  {
+    image:"img/members/arjun_srivastava.jpe",
+    imagealt:"arjun_srivastava",
+    name:"Arjun Srivastava",
+    domain:"Machine Learning",
     desig:"BTech 2nd Year",
     link:"#"
   },
@@ -291,14 +279,7 @@ members = [
     desig:"BTech 2nd Year",
     link:"#",
   }, 
-  {
-    image:"img/members/kanishkarj.jpe",
-    imagealt:"kanishkarj",
-    name:"Kanishkar J",
-    domain:"Full Stack Development",
-    desig:"BTech 2nd Year",
-    link:"https://github.com/kanishkarj",
-  },
+  
   {
     image:"img/members/saksham_tanwar.jpg",
     imagealt:"saksham_tanwar",
@@ -482,13 +463,6 @@ var mainNav = new Vue({
   }
   
 });
-var About = new Vue({
-  el: '#about',
-  data: {
-    header: 'About',
-    members: Headmembers
-  }
-})
 
 var AboutList = new Vue({
   el: '#aboutlist',
