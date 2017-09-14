@@ -45,18 +45,30 @@
   </nav>
 
   <div id="aboutlist" class="about-list">
-    <a class="row about-item about-item-profile" target="_blank" :href="item.link" v-for="item in members">
+    <div class="row about-item about-item-profile" v-for="item in members">
       <div class="col-sm-3">
         <img class="img-fluid rounded-circle" :src="item.image" :alt="item.imagealt"></img>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-5">
         <p>
           <span class="about-item-name">{{item.name}}</span><br>
-          <span class="about-item-desig">{{item.desig}}</span><br>
           <span class="about-item-domain">{{item.domain}}</span><br>
+          
         </p>
       </div>
-    </a>
+      <div class="col-md-4">
+        <p>
+          <span class="about-item-name">{{item.desig}}</span><br>
+          <ul class="social-abt-list">
+            <li class="list-inline-item" v-for="el in item.social">
+              <a class="btn-social social-abt-listitem btn-outline" :href="el.link">
+                <i :class="el.icon" aria-hidden="true" target="_blank"></i>
+            </a>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
   </div>
 
   <!-- Footer -->
@@ -77,8 +89,8 @@
               <ul class="list-inline">
                 <li class="list-inline-item" v-for="item in items">
                   <a class="btn-social btn-outline" :href="item.link">
-                          <i :class="item.icon" aria-hidden="true" target="_blank"></i>
-                        </a>
+                      <i :class="item.icon" aria-hidden="true" target="_blank"></i>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -94,7 +106,7 @@
   </div>
 
   <!-- Vue Js Scripts-->
-  <script src="vendor/vue/vue.min.js"></script>
+  <script src="vendor/vue/vue.js"></script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

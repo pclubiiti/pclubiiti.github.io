@@ -100,24 +100,9 @@ HomePageItems =  [
 
 WeeklyChallenges=[
   {
-    date:"11th sept 2017",
+    date:"Current Week",
     items:[
-      {
-        title:"Error Minimisation",
-        subtitle:"Find the parameters so that the error is minimised",
-        author:"Arjun Srivastava",
-        modalhref: '#weeklychalModal1',
-        modalhreftitle: 'weeklychalModal1',
-        content:"Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam feels that the two numbers are (approximately) linearly related by Y=m*X+c.Your job is to find m and c such that the error between predicted Y and the real Y is minimised.The error on one example is given by (Y-m*X+c)^2 , total error is the sum of the individual errors.",
-      },
-      {
-        title:"Pythagorean Triplets",
-        subtitle:"Print all the Pythagorean Triplets less than N",
-        author:"Varun Patil",
-        modalhref: '#weeklychalModal2',
-        modalhreftitle: 'weeklychalModal2',
-        content:"Print all Pythagorean triplets with sides less than a number N.Take N from user.Ask whether user wants only refined triplets or all triplets and print accordingly. (Refined triplets meaning 6,8,10 or 9,12,15 etc wont be counted because they are an integer multiple of 3,4,5.ie integer multiples of Base triplets should not be printed)",
-      },
+      
       {
         title:"Web Console",
         subtitle:"Hello, Friends",
@@ -145,7 +130,25 @@ WeeklyChallenges=[
     ]
   },
   {
-   
+    date:'Last Week',
+   items:[
+    {
+      title:"Error Minimisation",
+      subtitle:"Find the parameters so that the error is minimised",
+      author:"Arjun Srivastava",
+      modalhref: '#weeklychalModal1',
+      modalhreftitle: 'weeklychalModal1',
+      content:"Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam finds a mysterious box which upon shaking gives two numbers X and Y.Sam feels that the two numbers are (approximately) linearly related by Y=m*X+c.Your job is to find m and c such that the error between predicted Y and the real Y is minimised.The error on one example is given by (Y-m*X+c)^2 , total error is the sum of the individual errors.",
+    },
+    {
+      title:"Pythagorean Triplets",
+      subtitle:"Print all the Pythagorean Triplets less than N",
+      author:"Varun Patil",
+      modalhref: '#weeklychalModal2',
+      modalhreftitle: 'weeklychalModal2',
+      content:"Print all Pythagorean triplets with sides less than a number N.Take N from user.Ask whether user wants only refined triplets or all triplets and print accordingly. (Refined triplets meaning 6,8,10 or 9,12,15 etc wont be counted because they are an integer multiple of 3,4,5.ie integer multiples of Base triplets should not be printed)",
+    },
+   ]
   },
 ]
 
@@ -155,40 +158,147 @@ members = [
     imagealt:"vineetshah",
     name:"Vineet Shah",
     domain:"Competitive Coding",
-    desig:"BTech 3rd Year",
-    link:"google.com"
+    desig:"President",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/mohitmohta.jpg",
     imagealt:"mohitmohta",
     name:"Mohit Mohta",
     domain:"Software Development",
-    desig:"BTech 3rd Year",
-    link:"#"
+    desig:"Conveyor for development",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/kunalgupta.jpeg",
     imagealt:"kunalgupta",
     name:"Kunal Gupta",
-    domain:"Web Security",
-    desig:"BTech 3rd Year",
-    link:"#"
+    domain:"Cyber Security",
+    desig:"Conveyor for Security",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/adityajain.jpe",
     imagealt:"adityajain",
     name:"Aditya Jain",
-    domain:"Machine Learning",
-    desig:"BTech 3rd Year",
-    link:"#"
+    domain:"Machine Learning And Competitive Programming",
+    desig:"Conveyor for Algorithms",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
-    image:"img/members/blank.png",
+    image:"img/members/rohit_ranjan.jpg",
     imagealt:"rohit_ranjan",
     name:"Rohit Ranjan",
     domain:"Competitive Programming",
     desig:"BTech 3rd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
+  },
+  {
+    image:"img/members/dhruv_chadha.jpe",
+    imagealt:"dhruv_chadha",
+    name:"Dhruv Chadha",
+    domain:"Machine Learning",
+    desig:"BTech 3rd Year",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
+  },
+  {
+    image:"img/members/keshav_goyal.jpg",
+    imagealt:"keshav_goyal",
+    name:"Keshav Goyal",
+    domain:"Web Development",
+    desig:"BTech 3rd Year",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/tapish_singh.jpeg",
@@ -196,15 +306,41 @@ members = [
     name:"Tapish Singh",
     domain:"Competitive Programming",
     desig:"BTech 3rd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
-    {
+  {
     image:"img/members/bhor_verma.jpg",
     imagealt:"bhor_verma",
     name:"Bhor Verma",
     domain:"Cyber Security",
     desig:"BTech 3nd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/ankit_gaur.jpg",
@@ -212,7 +348,20 @@ members = [
     name:"Ankit Gaur",
     domain:"Android App Development",
     desig:"BTech 3rd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/kanishkarj.jpe",
@@ -220,23 +369,62 @@ members = [
     name:"Kanishkar J",
     domain:"Full Stack Development",
     desig:"BTech 2nd Year",
-    link:"https://github.com/kanishkarj",
+    social: [
+      { 
+        link: 'https://github.com/kanishkarj',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/Kanishkarj',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/_kanishkarj_',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
-    image:"img/members/blank.png",
+    image:"img/members/kumar_abhinav.jpg",
     imagealt:"kumar_abhinav",
     name:"Kumar Abhinav",
-    domain:"Competitive Coding",
+    domain:"Competitive Programming",
     desig:"BTech 2nd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
-    image:"img/members/blank.png",
+    image:"img/members/gvs_akhil.jpg",
     imagealt:"gvs_akhil",
     name:"GVS Akhil",
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/arjun_srivastava.jpe",
@@ -244,7 +432,20 @@ members = [
     name:"Arjun Srivastava",
     domain:"Machine Learning",
     desig:"BTech 2nd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/mohit_nathrani.jpg",
@@ -252,7 +453,20 @@ members = [
     name:"Mohit Nathrani",
     domain:"Web Development and Competitive Programming",
     desig:"BTech 2nd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/ashutosh_bang.JPG",
@@ -260,7 +474,20 @@ members = [
     name:"Ashutosh Bang",
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/joshi_niranjan.jpg",
@@ -268,7 +495,20 @@ members = [
     name:"Joshi Niranjan",
     domain:"Web and Software Development",
     desig:"BTech 2nd Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   
   {
@@ -277,7 +517,20 @@ members = [
     name:"Daanish Mahajan",
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
-    link:"#",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   }, 
   
   {
@@ -286,7 +539,20 @@ members = [
     name:"Saksham Tanwar",
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   
   {
@@ -295,14 +561,41 @@ members = [
     name:"Vishnunarayan K I",
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
-    link:"#",
-  },  {
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
+  },  
+  {
     image:"img/members/sparsh_bansal.jpg",
     imagealt:"sparsh_bansal",
     name:"Sparsh Bansal",
     domain:"Competitive Coding",
     desig:"BTech 1st Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/mrigank_krishan.jpg",
@@ -310,7 +603,20 @@ members = [
     name:"Mrigank Krishan",
     domain:"Web Development",
     desig:"BTech 1st Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/divyansh_choudhary.JPG",
@@ -318,7 +624,20 @@ members = [
     name:"Divyansh Choudhary",
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
     image:"img/members/varun_patil.jpg",
@@ -326,33 +645,83 @@ members = [
     name:"Varun Patil",
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
-   
-  
   {
     image:"img/members/blank.png",
     imagealt:"pratik_jain",
     name:"Pratik Jain",
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
-    image:"img/members/blank.png",
+    image:"img/members/vandan_agrawal.jpg",
     imagealt:"vandan_agarwal",
     name:"Vandan Agarwal",
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
-    link:"#"
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },
   {
-    image:"img/members/blank.png",
+    image:"img/members/aneesh_nema.jpg",
     imagealt:"aneesh_nema",
     name:"Aneesh Nema",
-    domain:"Development",
+    domain:"Web Development",
     desig:"BTech 1st Year",
-    link:"#",
+    social: [
+      { 
+        link: 'https://github.com/DaemonLab',
+        icon: 'fa fa-fw fa-github' 
+      },
+      { 
+        link: 'https://www.facebook.com/groups/485116264850626/',
+        icon: 'fa fa-fw fa-facebook' 
+      },
+      { 
+        link: 'https://twitter.com/pclubiiti',
+        icon: 'fa fa-fw fa-twitter' 
+      },
+    ]
   },  
   
 ];

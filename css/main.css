@@ -396,6 +396,16 @@ footer {
     font-weight: bolder;
     font-size: 0.75em; }
 
+.social-abt-listitem {
+  padding: 0 !important;
+  margin: 0 !important;
+  color: steelblue !important;
+  border-color: steelblue !important;
+  border-width: 0.15em !important; }
+  .social-abt-listitem:hover {
+    color: #2C3E50 !important;
+    border-color: #2C3E50 !important; }
+
 .btn-outline {
   font-size: 20px;
   margin-top: 15px;

@@ -54,3 +54,18 @@
       font-size: 0.75em;
     } 
   }
+
+  .social-abt-list{
+    
+  }
+  .social-abt-listitem{
+    padding: 0!important;
+    margin: 0!important;
+    color:steelblue!important;
+    border-color: steelblue!important;
+    border-width: 0.15em!important;
+    &:hover{
+      color:$theme-primary!important;
+      border-color: $theme-primary!important;
+    }
+  }
