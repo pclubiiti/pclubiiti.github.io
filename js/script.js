@@ -63,7 +63,7 @@ var Header = new Vue({
 });
 
 HomePageItems =  [
-  { 
+  {
     image: 'img/project/game1.png',
     imagealt: 'game1',
     modalhref: '#projectModal1',
@@ -71,10 +71,10 @@ HomePageItems =  [
     title: 'Infinite Runner',
     content: 'The game is an infinite runner with the main objective of collecting as many bananas as possible. The game uses Unity Engine.',
     github: 'https://github.com/sreevatsank1999/Project_M',
-    date: '21st july 2017', 
-    domain: 'Game Development',  
+    date: '21st july 2017',
+    domain: 'Game Development',
   },
-  { 
+  {
     image: 'img/project/web1.svg',
     imagealt: 'web1',
     modalhref: '#projectModal2',
@@ -82,10 +82,10 @@ HomePageItems =  [
     title: 'Q and A forum',
     content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/Mohit-Nathrani/question-answer-site',
-    date: '21st july 2017', 
-    domain: 'Full Stack Development', 
+    date: '21st july 2017',
+    domain: 'Full Stack Development',
   },
-  { 
+  {
     image: 'img/project/software1.svg',
     imagealt: 'software1',
     modalhref: '#projectModal3',
@@ -93,8 +93,8 @@ HomePageItems =  [
     title: 'Rave Media Player',
     content: 'A media player with an intuitive media library management capabilities built on Python and Qt.',
     github: 'https://github.com/kanishkarj/rave',
-    date: '21st july 2017', 
-    domain: 'Software Development', 
+    date: '21st july 2017',
+    domain: 'Software Development',
   },
 ];
 
@@ -102,7 +102,7 @@ WeeklyChallenges=[
   {
     date:"Current Week",
     items:[
-      
+
       {
         title:"Web Console",
         subtitle:"Hello, Friends",
@@ -160,17 +160,13 @@ members = [
     domain:"Competitive Programming",
     desig:"President",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/vntshh',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'http://codeforces.com/profile/vntshh',
+        icon: 'fa fa-fw fa-code'
       },
     ]
   },
@@ -181,17 +177,17 @@ members = [
     domain:"Software Development",
     desig:"Convenor for development",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/mohtamohit',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
+      {
+        link: 'https://twitter.com/mohtamohit',
+        icon: 'fa fa-fw fa-twitter'
       },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://www.linkedin.com/in/mohtamohit/',
+        icon: 'fa fa-fw fa-user'
       },
     ]
   },
@@ -202,17 +198,17 @@ members = [
     domain:"Cyber Security",
     desig:"Convenor for Security",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/iamKunal',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
+      {
+        link: 'https://twitter.com/_kunalgupta_',
+        icon: 'fa fa-fw fa-twitter'
       },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://blog.stackpwn.in',
+        icon: 'fa fa-fw fa-user'
       },
     ]
   },
@@ -223,17 +219,9 @@ members = [
     domain:"Machine Learning And Competitive Programming",
     desig:"Convenor for Data Structures and Algorithms",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/FireWithin',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -244,18 +232,6 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 3rd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
-      },
     ]
   },
   {
@@ -265,18 +241,6 @@ members = [
     domain:"Machine Learning",
     desig:"BTech 3rd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
-      },
     ]
   },
   {
@@ -286,18 +250,6 @@ members = [
     domain:"Web Development",
     desig:"BTech 3rd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
-      },
     ]
   },
   {
@@ -307,17 +259,13 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 3rd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/tapish13031997',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'http://codeforces.com/profile/killer_bee',
+        icon: 'fa fa-fw fa-code'
       },
     ]
   },
@@ -328,17 +276,13 @@ members = [
     domain:"Cyber Security",
     desig:"BTech 3nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/K3dves',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://twitter.com/K3dves',
+        icon: 'fa fa-fw fa-twitter'
       },
     ]
   },
@@ -349,17 +293,9 @@ members = [
     domain:"Android App Development",
     desig:"BTech 3rd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/ankit-gaur',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -370,17 +306,21 @@ members = [
     domain:"Full Stack Development",
     desig:"BTech 2nd Year",
     social: [
-      { 
+      {
         link: 'https://github.com/kanishkarj',
-        icon: 'fa fa-fw fa-github' 
+        icon: 'fa fa-fw fa-github'
       },
-      { 
+      {
         link: 'https://www.facebook.com/Kanishkarj',
-        icon: 'fa fa-fw fa-facebook' 
+        icon: 'fa fa-fw fa-facebook'
       },
-      { 
+      {
         link: 'https://twitter.com/_kanishkarj_',
-        icon: 'fa fa-fw fa-twitter' 
+        icon: 'fa fa-fw fa-twitter'
+      },
+      {
+        link: 'https://kanishkarj.github.io',
+        icon: 'fa fa-fw fa-user'
       },
     ]
   },
@@ -391,17 +331,9 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/Abhinav2812',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -412,17 +344,13 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/vicennial',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'http://codeforces.com/profile/vicennial',
+        icon: 'fa fa-fw fa-code'
       },
     ]
   },
@@ -433,17 +361,21 @@ members = [
     domain:"Machine Learning",
     desig:"BTech 2nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/arjubazinga',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
+      {
+        link: 'http://codeforces.com/profile/arjubazinga',
+        icon: 'fa fa-fw fa-code'
       },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://twitter.com/arjubazinga',
+        icon: 'fa fa-fw fa-twitter'
+      },
+      {
+        link: 'https://arjunbazinga.github.io',
+        icon: 'fa fa-fw fa-user'
       },
     ]
   },
@@ -454,17 +386,13 @@ members = [
     domain:"Web Development and Competitive Programming",
     desig:"BTech 2nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/Mohit-Nathrani',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'http://codeforces.com/profile/mohit_001',
+        icon: 'fa fa-fw fa-code'
       },
     ]
   },
@@ -475,17 +403,13 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/ashutoshbang',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'http://codeforces.com/profile/ashutosh_bang',
+        icon: 'fa fa-fw fa-code'
       },
     ]
   },
@@ -496,21 +420,17 @@ members = [
     domain:"Web and Software Development",
     desig:"BTech 2nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/Niranjan-J',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'http://codeforces.com/profile/niranjanj',
+        icon: 'fa fa-fw fa-code
       },
     ]
   },
-  
+
   {
     image:"img/members/daanish_mahajan.jpg",
     imagealt:"daanish_mahajan",
@@ -518,21 +438,9 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
-      },
     ]
-  }, 
-  
+  },
+
   {
     image:"img/members/saksham_tanwar.jpg",
     imagealt:"saksham_tanwar",
@@ -540,21 +448,21 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/saksDaemonLabhamTanwar',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
+      {
+        link: 'http://codeforces.com/profile/saksham.tanwar608',
+        icon: 'fa fa-fw fa-facebook'
       },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://twitter.com/tanwar608',
+        icon: 'fa fa-fw fa-twitter'
       },
     ]
   },
-  
+
   {
     image:"img/members/vishnunarayan.jpg",
     imagealt:"vishnunarayan",
@@ -562,20 +470,12 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/vn-ki',
+        icon: 'fa fa-fw fa-github'
       },
     ]
-  },  
+  },
   {
     image:"img/members/sparsh_bansal.jpg",
     imagealt:"sparsh_bansal",
@@ -583,17 +483,9 @@ members = [
     domain:"Competitive Coding",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/SuperFoxtrot',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -604,17 +496,9 @@ members = [
     domain:"Web Development",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/Mrigank11',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -625,17 +509,9 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/dc_official',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -646,17 +522,9 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://github.com/varun271099',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -667,18 +535,6 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
-      },
     ]
   },
   {
@@ -688,18 +544,6 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
-      },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
-      },
     ]
   },
   {
@@ -709,25 +553,21 @@ members = [
     domain:"Web Development",
     desig:"BTech 1st Year",
     social: [
-      { 
-        link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+      {
+        link: 'https://github.com/aneeshnema',
+        icon: 'fa fa-fw fa-github'
       },
-      { 
-        link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
-      },
-      { 
-        link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+      {
+        link: 'https://twitter.com/aneesh_nema',
+        icon: 'fa fa-fw fa-twitter'
       },
     ]
-  },  
-  
+  },
+
 ];
 
 ProjectPageItems =  [
-  { 
+  {
     image: 'img/project/game1.png',
     imagealt: 'game1',
     modalhref: '#projectModal1',
@@ -735,10 +575,10 @@ ProjectPageItems =  [
     title: 'Infinite Runner',
     content: 'The game is an infinite runner with the main objective of collecting as many bananas as possible. The game uses Unity Engine.',
     github: 'https://github.com/sreevatsank1999/Project_M',
-    date: '21st july 2017', 
-    domain: 'Game Development', 
+    date: '21st july 2017',
+    domain: 'Game Development',
   },
-  { 
+  {
     image: 'img/project/web1.svg',
     imagealt: 'web1',
     modalhref: '#projectModal2',
@@ -746,10 +586,10 @@ ProjectPageItems =  [
     title: 'Q and A forum',
     content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/Mohit-Nathrani/question-answer-site',
-    date: '21st july 2017', 
-    domain: 'Full Stack Development', 
+    date: '21st july 2017',
+    domain: 'Full Stack Development',
   },
-  { 
+  {
     image: 'img/project/software1.svg',
     imagealt: 'software1',
     modalhref: '#projectModal3',
@@ -757,10 +597,10 @@ ProjectPageItems =  [
     title: 'Rave Media Player',
     content: 'A media player with an intuitive media library management capabilities built on Python and Qt.',
     github: 'https://github.com/kanishkarj/rave',
-    date: '21st july 2017', 
-    domain: 'Software Development', 
+    date: '21st july 2017',
+    domain: 'Software Development',
   },
-  { 
+  {
     image: 'img/project/web2.svg',
     imagealt: 'web1',
     modalhref: '#projectModal4',
@@ -768,10 +608,10 @@ ProjectPageItems =  [
     title: 'Local Quora',
     content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/Harsh860/IITI-SOC',
-    date: '21st july 2017', 
-    domain: 'Full Stack Development', 
+    date: '21st july 2017',
+    domain: 'Full Stack Development',
   },
-  { 
+  {
     image: 'img/project/web3.svg',
     imagealt: 'web3',
     modalhref: '#projectModal5',
@@ -779,10 +619,10 @@ ProjectPageItems =  [
     title: 'Query',
     content: 'This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures. ',
     github: 'https://github.com/kpranav1998/soc-project',
-    date: '21st july 2017', 
-    domain: 'Full Stack Development', 
+    date: '21st july 2017',
+    domain: 'Full Stack Development',
   },
-  { 
+  {
     image: 'img/project/software2.svg',
     imagealt: 'Software2',
     modalhref: '#projectModal6',
@@ -790,10 +630,10 @@ ProjectPageItems =  [
     title: 'Javafx Media Player',
     content: 'Music player built using JavaFX stylized using CSS sheets. The player can be used to pause/play and reload songs.',
     github: 'https://github.com/eltoro007/MediaPlayer',
-    date: '21st july 2017', 
-    domain: 'Software Development', 
+    date: '21st july 2017',
+    domain: 'Software Development',
   },
-  { 
+  {
     image: 'img/project/ml1.svg',
     imagealt: 'ml1',
     modalhref: '#projectModal7',
@@ -801,8 +641,8 @@ ProjectPageItems =  [
     title: 'Computer learns to play mario.',
     content: 'A machine learning algorithm that successfully learns to play Super Mario 64, after learning from test runs played by us.',
     github: 'https://github.com/Mohit-Nathrani/question-answer-site',
-    date: '21st july 2017', 
-    domain: 'Machine Learning', 
+    date: '21st july 2017',
+    domain: 'Machine Learning',
   },
 ];
 
@@ -811,26 +651,26 @@ var mainNav = new Vue({
   data: {
     header: 'The Programming club',
     items: [
-      { 
+      {
         title:'Projects',
-        href:'projects.html' 
+        href:'projects.html'
       },
-      { 
+      {
         title:'Weekly Challenges',
-        href:'weekly-chal.html' 
+        href:'weekly-chal.html'
       },
-      { 
+      {
         title:'Blog',
-        href:'/blog' 
+        href:'/blog'
       },
-      { 
+      {
         title:'About',
-        href:'about.html' 
+        href:'about.html'
       },
-     
+
     ]
   }
-  
+
 });
 
 var AboutList = new Vue({
@@ -903,21 +743,21 @@ var Footer = new Vue({
     location: 'Indian Institute of Technology <br> Indore',
     copyright: 'Copyright &copy; Daemon Labs 2017',
     items: [
-      { 
+      {
         link: 'mailto:progclub@iiti.ac.in',
-        icon: 'fa fa-fw fa-envelope' 
+        icon: 'fa fa-fw fa-envelope'
       },
-      { 
+      {
         link: 'https://www.facebook.com/groups/485116264850626/',
-        icon: 'fa fa-fw fa-facebook' 
+        icon: 'fa fa-fw fa-facebook'
       },
-      { 
+      {
         link: 'https://github.com/DaemonLab',
-        icon: 'fa fa-fw fa-github' 
+        icon: 'fa fa-fw fa-github'
       },
-      { 
+      {
         link: 'https://twitter.com/pclubiiti',
-        icon: 'fa fa-fw fa-twitter' 
+        icon: 'fa fa-fw fa-twitter'
       },
     ]
   }
