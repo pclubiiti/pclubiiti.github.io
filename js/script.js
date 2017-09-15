@@ -311,10 +311,6 @@ members = [
         icon: 'fa fa-fw fa-github'
       },
       {
-        link: 'https://www.facebook.com/Kanishkarj',
-        icon: 'fa fa-fw fa-facebook'
-      },
-      {
         link: 'https://twitter.com/_kanishkarj_',
         icon: 'fa fa-fw fa-twitter'
       },
@@ -426,7 +422,7 @@ members = [
       },
       {
         link: 'http://codeforces.com/profile/niranjanj',
-        icon: 'fa fa-fw fa-code
+        icon: 'fa fa-fw fa-code'
       },
     ]
   },
