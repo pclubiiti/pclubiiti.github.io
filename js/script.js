@@ -331,6 +331,14 @@ members = [
         link: 'https://github.com/Abhinav2812',
         icon: 'fa fa-fw fa-github'
       },
+      {
+        link: 'http://codeforces.com/profile/kr_abhinav',
+        icon: 'fa fa-fw fa-code'
+      },
+      {
+        link: 'http://directrix.tech/',
+        icon: 'fa fa-fw fa-user'
+      },
     ]
   },
   {
@@ -358,15 +366,15 @@ members = [
     desig:"BTech 2nd Year",
     social: [
       {
-        link: 'https://github.com/arjubazinga',
+        link: 'https://github.com/arjunbazinga',
         icon: 'fa fa-fw fa-github'
       },
       {
-        link: 'http://codeforces.com/profile/arjubazinga',
+        link: 'http://codeforces.com/profile/arjunbazinga',
         icon: 'fa fa-fw fa-code'
       },
       {
-        link: 'https://twitter.com/arjubazinga',
+        link: 'https://twitter.com/arjunbazinga',
         icon: 'fa fa-fw fa-twitter'
       },
       {
@@ -389,6 +397,19 @@ members = [
       {
         link: 'http://codeforces.com/profile/mohit_001',
         icon: 'fa fa-fw fa-code'
+      },
+    ]
+  },
+  {
+    image:"img/members/priyanshu.jpg",
+    imagealt:"priyanshu",
+    name:"priyanshu",
+    domain:"Web Development and Competitive Programming",
+    desig:"BTech 2nd Year",
+    social: [
+      {
+        link: 'https://github.com/priyanshuvarsh',
+        icon: 'fa fa-fw fa-github'
       },
     ]
   },
@@ -445,12 +466,12 @@ members = [
     desig:"BTech 1st Year",
     social: [
       {
-        link: 'https://github.com/saksDaemonLabhamTanwar',
+        link: 'https://github.com/sakshamTanwar',
         icon: 'fa fa-fw fa-github'
       },
       {
         link: 'http://codeforces.com/profile/saksham.tanwar608',
-        icon: 'fa fa-fw fa-facebook'
+        icon: 'fa fa-fw fa-code'
       },
       {
         link: 'https://twitter.com/tanwar608',
