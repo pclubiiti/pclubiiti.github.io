@@ -367,38 +367,68 @@ footer {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: box-shadow 0.25s; }
 
+@media (max-width: 724px) {
+  .about-list {
+    width: 100% !important;
+    margin: auto; } }
+
 .about-list {
   width: 80%;
   margin: auto;
   margin-top: 10em;
   margin-bottom: 2em; }
-  .about-list .about-item {
-    padding: 1em;
-    border-bottom: 0.1em solid lightblue;
-    color: steelblue !important; }
-    .about-list .about-item:hover {
-      text-decoration: none;
-      background-color: rgba(119, 136, 153, 0.1);
-      -webkit-transition: background-color 0.5s, -webkit-transform 0.5s;
-      transition: background-color 0.5s, -webkit-transform 0.5s; }
   .about-list p {
-    padding: 1em; }
+    text-align: center;
+    width: 100%; }
+  .about-list .about-item {
+    padding: 2em;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0.1em 0.2em rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin-right: 0.05em;
+    margin-left: 0.05em;
+    margin-bottom: 1em; }
+    .about-list .about-item:hover {
+      background: rgba(119, 136, 153, 0.8);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1em 1em rgba(0, 0, 0, 0.22);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .about-list .about-card-img {
+    width: 100%;
+    margin: 0; }
   .about-list img {
-    height: 10em; }
+    height: 10em;
+    width: auto;
+    margin: auto;
+    margin-bottom: 1em; }
   .about-list .about-item-name {
-    font-weight: bold;
     font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
     text-transform: uppercase; }
   .about-list .about-item-desig {
-    font-weight: bolder;
-    font-size: 1em; }
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center; }
   .about-list .about-item-domain {
-    font-weight: bolder;
-    font-size: 0.75em; }
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase; }
+
+.social-container {
+  width: 100%;
+  margin: 0;
+  margin-top: 1em; }
+
+.social-abt-list {
+  width: 100%;
+  margin: 0;
+  left: 0; }
 
 .social-abt-listitem {
-  padding: 0 !important;
-  margin: 0 !important;
   color: steelblue !important;
   border-color: steelblue !important;
   border-width: 0.15em !important; }

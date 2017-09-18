@@ -216,7 +216,7 @@ members = [
     image:"img/members/adityajain.jpe",
     imagealt:"adityajain",
     name:"Aditya Jain",
-    domain:"Machine Learning And Competitive Programming",
+    domain:"Competitive Programming",
     desig:"Convenor for Data Structures and Algorithms",
     social: [
       {
@@ -232,6 +232,10 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 3rd Year",
     social: [
+      {
+        link: 'https://github.com/FireWithin',
+        icon: 'fa fa-fw fa-github'
+      },
     ]
   },
   {
@@ -241,6 +245,10 @@ members = [
     domain:"Machine Learning",
     desig:"BTech 3rd Year",
     social: [
+      {
+        link: 'https://github.com/FireWithin',
+        icon: 'fa fa-fw fa-github'
+      },
     ]
   },
   {
@@ -250,6 +258,10 @@ members = [
     domain:"Web Development",
     desig:"BTech 3rd Year",
     social: [
+      {
+        link: 'https://github.com/FireWithin',
+        icon: 'fa fa-fw fa-github'
+      },
     ]
   },
   {
@@ -370,10 +382,6 @@ members = [
         icon: 'fa fa-fw fa-github'
       },
       {
-        link: 'http://codeforces.com/profile/arjunbazinga',
-        icon: 'fa fa-fw fa-code'
-      },
-      {
         link: 'https://twitter.com/arjunbazinga',
         icon: 'fa fa-fw fa-twitter'
       },
@@ -455,6 +463,10 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 2nd Year",
     social: [
+      {
+        link: 'https://github.com/FireWithin',
+        icon: 'fa fa-fw fa-github'
+      },
     ]
   },
 
@@ -552,6 +564,10 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
+      {
+        link: 'https://github.com/FireWithin',
+        icon: 'fa fa-fw fa-github'
+      },
     ]
   },
   {
@@ -561,6 +577,10 @@ members = [
     domain:"Competitive Programming",
     desig:"BTech 1st Year",
     social: [
+      {
+        link: 'https://github.com/FireWithin',
+        icon: 'fa fa-fw fa-github'
+      },
     ]
   },
   {
