@@ -6,7 +6,8 @@ header.masthead {
   text-align: center;
 
   color: white;
-  background: $theme-success;
+  background-image: linear-gradient(-225deg, #2A1C30 0%, rgb(52,0,74) 52%, rgb(38,0,54) 100%);
+  background-blend-mode: multiply;
   img {
     display: block;
 
