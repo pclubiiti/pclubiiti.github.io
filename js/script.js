@@ -124,7 +124,7 @@ var Header = new Vue({
   el: 'header',
   data: {
     title: 'The Programming club',
-    subtitle: 'Indian Institute of Technology, Indore'
+    subtitle: 'Indian Institute of Technology Indore'
   }
 });
 
