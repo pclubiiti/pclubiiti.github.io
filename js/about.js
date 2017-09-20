@@ -385,7 +385,7 @@ members = [
       desig:"BTech 1st Year",
       social: [
         {
-          link: 'https://github.com/dc_official',
+          link: 'https://github.com/dv99',
           icon: 'fa fa-fw fa-github'
         },
       ]
