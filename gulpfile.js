@@ -18,7 +18,7 @@ var banner = ['/*!\n',
 ].join('');
 
 // Compiles SCSS files from /scss into /css
-gulp.task('sass', function() {
+gulp.task('sass', function () {
   return gulp.src('scss/main.scss')
     .pipe(sass())
     .pipe(header(banner, {
@@ -31,7 +31,7 @@ gulp.task('sass', function() {
 });
 
 // Minify compiled CSS
-gulp.task('minify-css', ['sass'], function() {
+gulp.task('minify-css', ['sass'], function () {
   return gulp.src('css/main.css')
     .pipe(cleanCSS({
       compatibility: 'ie8'
@@ -46,8 +46,8 @@ gulp.task('minify-css', ['sass'], function() {
 });
 
 // Minify custom JS
-gulp.task('minify-js', function() {
-  return gulp.src('js/script.js')
+gulp.task('minify-js', function () {
+  gulp.src('js/script.js')
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg
@@ -58,12 +58,49 @@ gulp.task('minify-js', function() {
     .pipe(gulp.dest('js'))
     .pipe(browserSync.reload({
       stream: true
+    }));
+  gulp.src('js/about.js')
+    .pipe(uglify())
+    .pipe(header(banner, {
+      pkg: pkg
     }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({
+      stream: true
+    }));
+    gulp.src('js/weekly-chal.js')
+    .pipe(uglify())
+    .pipe(header(banner, {
+      pkg: pkg
+    }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({
+      stream: true
+    }));
+    gulp.src('js/projects.js')
+    .pipe(uglify())
+    .pipe(header(banner, {
+      pkg: pkg
+    }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({
+      stream: true
+    }));
+  return 1;
 });
 
 // Copy vendor files from /node_modules into /vendor
 // NOTE: requires `npm install` before running!
-gulp.task('copy', function() {
+gulp.task('copy', function () {
   gulp.src([
       'node_modules/bootstrap/dist/**/*',
       '!**/npm.js',
@@ -96,7 +133,7 @@ gulp.task('copy', function() {
 gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
 
 // Configure the browserSync task
-gulp.task('browserSync', function() {
+gulp.task('browserSync', function () {
   browserSync.init({
     server: {
       baseDir: ''
@@ -105,7 +142,7 @@ gulp.task('browserSync', function() {
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
+gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function () {
   gulp.watch('scss/*.scss', ['sass']);
   gulp.watch('css/*.css', ['minify-css']);
   gulp.watch('js/*.js', ['minify-js']);

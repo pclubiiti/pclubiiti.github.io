@@ -23,7 +23,13 @@
     margin:auto;
   }
 }
-
+@media(min-width:724px){
+  .about-list{
+    .about-item{
+      height: 27em;
+    }
+  }
+}
   .about-list{
     width: 80%;
     margin:auto;

@@ -1,5 +1,5 @@
 {
-    "title": "Freelancer",
+    "title": "The Programming Club IITI",
     "name": "startbootstrap-freelancer",
     "version": "4.0.0-beta",
     "description": "A freelancer portfolio HTML theme for Bootstrap.",
@@ -8,22 +8,21 @@
         "sass",
         "html",
         "responsive",
-        "theme",
-        "template"
+        "Vue js"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/freelancer",
+    "homepage": "pclubiiti.github.io",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "pclubiiti.github.io",
+        "email": "progclub@iiti.ac.in"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Kanishkar J (http://kanishkarj.github.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+        "url": "https://github.com/pclubiiti/pclubiiti.github.io.git"
     },
     "dependencies": {
         "bootstrap": "^4.0.0-beta",

@@ -15,6 +15,14 @@
     background: white;
   }
 }
+.btn-info{
+  background-color: steelblue!important;
+  border-color: steelblue!important;
+  &:hover{
+    background-color: #1c3448!important;
+    border-color: #1c3448!important;
+  }
+}
 
 .btn-primary {
   font-weight: 700;
