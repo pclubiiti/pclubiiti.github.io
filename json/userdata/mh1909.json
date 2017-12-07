@@ -2,5 +2,13 @@
     "euler001": {
         "score": 60, 
         "timestamp": 107807212
+    }, 
+    "euler003": {
+        "score": 80, 
+        "timestamp": 107888030
+    }, 
+    "euler005": {
+        "score": 100, 
+        "timestamp": 107899010
     }
 }

@@ -50,5 +50,29 @@
     "euler013": {
         "score": 100, 
         "timestamp": 107835133
+    }, 
+    "euler014": {
+        "score": 100, 
+        "timestamp": 107879900
+    }, 
+    "euler015": {
+        "score": 0, 
+        "timestamp": 0
+    }, 
+    "euler016": {
+        "score": 100, 
+        "timestamp": 107876396
+    }, 
+    "euler018": {
+        "score": 100, 
+        "timestamp": 107891120
+    }, 
+    "euler020": {
+        "score": 100, 
+        "timestamp": 107889545
+    }, 
+    "euler022": {
+        "score": 100, 
+        "timestamp": 107891926
     }
 }
