@@ -967,8 +967,8 @@
             "timestamp": 108178774
         },
         "euler087": {
-            "score": 0,
-            "timestamp": 0
+            "score": 14,
+            "timestamp": 108180530
         },
         "euler155": {
             "score": 17,
@@ -1037,6 +1037,10 @@
         "euler008": {
             "score": 100,
             "timestamp": 107992404
+        },
+        "euler009": {
+            "score": 100,
+            "timestamp": 108180525
         },
         "euler016": {
             "score": 100,
@@ -1185,6 +1189,10 @@
         "euler018": {
             "score": 0,
             "timestamp": 0
+        },
+        "euler028": {
+            "score": 100,
+            "timestamp": 108180797
         }
     },
     "chaitan94": {
