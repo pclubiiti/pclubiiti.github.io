@@ -262,6 +262,10 @@
         }
     },
     "MisterAmazing": {
+        "euler187": {
+            "score": 0,
+            "timestamp": 0
+        },
         "euler197": {
             "score": 0,
             "timestamp": 0
@@ -1186,6 +1190,10 @@
             "score": 100,
             "timestamp": 107913940
         },
+        "euler006": {
+            "score": 100,
+            "timestamp": 107915352
+        },
         "euler018": {
             "score": 0,
             "timestamp": 0
@@ -1193,6 +1201,14 @@
         "euler028": {
             "score": 100,
             "timestamp": 108180797
+        },
+        "euler036": {
+            "score": 0,
+            "timestamp": 0
+        },
+        "euler042": {
+            "score": 100,
+            "timestamp": 108005270
         }
     },
     "chaitan94": {
@@ -2955,6 +2971,10 @@
         "euler013": {
             "score": 100,
             "timestamp": 108179489
+        },
+        "euler016": {
+            "score": 100,
+            "timestamp": 108180999
         },
         "euler189": {
             "score": 26,
