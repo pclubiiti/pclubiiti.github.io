@@ -2810,6 +2810,10 @@
             "score": 100,
             "timestamp": 108175003
         },
+        "euler009": {
+            "score": 100,
+            "timestamp": 108178797
+        },
         "euler010": {
             "score": 57,
             "timestamp": 108180465
@@ -4153,8 +4157,8 @@
             "timestamp": 108185841
         },
         "euler016": {
-            "score": 0,
-            "timestamp": 0
+            "score": 100,
+            "timestamp": 108188121
         },
         "euler019": {
             "score": 100,
