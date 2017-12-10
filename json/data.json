@@ -1744,6 +1744,10 @@
             "score": 100,
             "timestamp": 107899551
         },
+        "euler091": {
+            "score": 50,
+            "timestamp": 108170821
+        },
         "euler155": {
             "score": 100,
             "timestamp": 107919574
@@ -2969,6 +2973,10 @@
         "euler010": {
             "score": 85,
             "timestamp": 108164028
+        },
+        "euler011": {
+            "score": 60,
+            "timestamp": 108170752
         }
     },
     "shahdevansh2000": {
