@@ -263,8 +263,8 @@
     },
     "MisterAmazing": {
         "euler187": {
-            "score": 0,
-            "timestamp": 0
+            "score": 52,
+            "timestamp": 108182190
         },
         "euler197": {
             "score": 0,
@@ -1190,6 +1190,10 @@
             "score": 100,
             "timestamp": 107913940
         },
+        "euler004": {
+            "score": 100,
+            "timestamp": 108181905
+        },
         "euler006": {
             "score": 100,
             "timestamp": 107915352
@@ -1744,6 +1748,10 @@
         }
     },
     "ee160002054": {
+        "euler004": {
+            "score": 100,
+            "timestamp": 108087111
+        },
         "euler008": {
             "score": 100,
             "timestamp": 108175003
@@ -1829,6 +1837,10 @@
         "euler091": {
             "score": 50,
             "timestamp": 108170821
+        },
+        "euler100": {
+            "score": 5,
+            "timestamp": 108182304
         },
         "euler139": {
             "score": 0,
