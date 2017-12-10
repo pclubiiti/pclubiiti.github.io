@@ -864,6 +864,10 @@
             "score": 100,
             "timestamp": 108001826
         },
+        "euler015": {
+            "score": 100,
+            "timestamp": 108152288
+        },
         "euler016": {
             "score": 100,
             "timestamp": 108002383
@@ -1427,6 +1431,10 @@
         "euler010": {
             "score": 100,
             "timestamp": 108146272
+        },
+        "euler011": {
+            "score": 100,
+            "timestamp": 108152226
         }
     },
     "deepaksattiraju": {
@@ -2616,6 +2624,10 @@
             "score": 66,
             "timestamp": 108094889
         },
+        "euler048": {
+            "score": 20,
+            "timestamp": 108152482
+        },
         "euler197": {
             "score": 100,
             "timestamp": 108151010
@@ -2921,6 +2933,10 @@
         "euler008": {
             "score": 0,
             "timestamp": 0
+        },
+        "euler009": {
+            "score": 10,
+            "timestamp": 108152116
         }
     },
     "shahdevansh2000": {
