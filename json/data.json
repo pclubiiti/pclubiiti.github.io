@@ -979,8 +979,8 @@
             "timestamp": 0
         },
         "euler055": {
-            "score": 80,
-            "timestamp": 108183555
+            "score": 100,
+            "timestamp": 108236274
         },
         "euler056": {
             "score": 100,
@@ -3117,7 +3117,7 @@
             "timestamp": 4078249
         }
     },
-    "nukul430": {
+    "nukul9": {
         "euler001": {
             "score": 60,
             "timestamp": 108142705
@@ -3153,9 +3153,7 @@
         "euler022": {
             "score": 100,
             "timestamp": 108233375
-        }
-    },
-    "nukul9": {
+        },
         "euler189": {
             "score": 26,
             "timestamp": 100187403
