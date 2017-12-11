@@ -303,6 +303,10 @@
         "euler002": {
             "score": 100,
             "timestamp": 108246773
+        },
+        "euler003": {
+            "score": 100,
+            "timestamp": 108268138
         }
     },
     "PokemonChar": {
@@ -1172,6 +1176,10 @@
             "score": 100,
             "timestamp": 108178774
         },
+        "euler058": {
+            "score": 75,
+            "timestamp": 108268359
+        },
         "euler063": {
             "score": 100,
             "timestamp": 108231342
@@ -1241,6 +1249,10 @@
         "euler008": {
             "score": 100,
             "timestamp": 89653315
+        },
+        "euler009": {
+            "score": 40,
+            "timestamp": 108268000
         },
         "euler171": {
             "score": 15,
