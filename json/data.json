@@ -262,6 +262,10 @@
         }
     },
     "MisterAmazing": {
+        "euler005": {
+            "score": 100,
+            "timestamp": 108240058
+        },
         "euler006": {
             "score": 100,
             "timestamp": 108238472
@@ -887,8 +891,8 @@
             "timestamp": 107997400
         },
         "euler009": {
-            "score": 40,
-            "timestamp": 107998385
+            "score": 100,
+            "timestamp": 108240031
         },
         "euler010": {
             "score": 100,
@@ -3177,6 +3181,10 @@
         "euler027": {
             "score": 50,
             "timestamp": 108237981
+        },
+        "euler037": {
+            "score": 66,
+            "timestamp": 108239882
         },
         "euler189": {
             "score": 26,
