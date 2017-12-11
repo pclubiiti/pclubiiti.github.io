@@ -939,8 +939,8 @@
             "timestamp": 108090085
         },
         "euler032": {
-            "score": 80,
-            "timestamp": 108239144
+            "score": 100,
+            "timestamp": 108239448
         },
         "euler034": {
             "score": 100,
@@ -3321,6 +3321,10 @@
         "euler012": {
             "score": 38,
             "timestamp": 108084447
+        },
+        "euler013": {
+            "score": 100,
+            "timestamp": 108239477
         }
     },
     "shanmalviya": {
