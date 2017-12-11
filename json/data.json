@@ -979,8 +979,8 @@
             "timestamp": 108149709
         },
         "euler036": {
-            "score": 92,
-            "timestamp": 108102864
+            "score": 100,
+            "timestamp": 108249772
         },
         "euler037": {
             "score": 100,
@@ -1075,6 +1075,10 @@
         "euler003": {
             "score": 100,
             "timestamp": 108245202
+        },
+        "euler004": {
+            "score": 0,
+            "timestamp": 0
         },
         "euler006": {
             "score": 100,
@@ -1259,8 +1263,8 @@
             "timestamp": 0
         },
         "euler016": {
-            "score": 33,
-            "timestamp": 107910183
+            "score": 88,
+            "timestamp": 108249675
         }
     },
     "apoorv_kulsh": {
