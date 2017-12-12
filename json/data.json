@@ -12,6 +12,10 @@
             "score": 100,
             "timestamp": 107708859
         },
+        "euler004": {
+            "score": 66,
+            "timestamp": 108321936
+        },
         "euler005": {
             "score": 100,
             "timestamp": 104619905
@@ -3883,6 +3887,10 @@
         "euler013": {
             "score": 100,
             "timestamp": 108321631
+        },
+        "euler015": {
+            "score": 100,
+            "timestamp": 108322065
         }
     },
     "sumit4iit": {
