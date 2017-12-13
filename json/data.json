@@ -325,6 +325,14 @@
         "euler003": {
             "score": 100,
             "timestamp": 108268138
+        },
+        "euler004": {
+            "score": 100,
+            "timestamp": 108397380
+        },
+        "euler005": {
+            "score": 100,
+            "timestamp": 108368244
         }
     },
     "PokemonChar": {
@@ -698,6 +706,14 @@
             "score": 0,
             "timestamp": 0
         },
+        "euler015": {
+            "score": 0,
+            "timestamp": 0
+        },
+        "euler016": {
+            "score": 100,
+            "timestamp": 108398959
+        },
         "euler017": {
             "score": 100,
             "timestamp": 108329359
@@ -713,6 +729,10 @@
         "euler089": {
             "score": 0,
             "timestamp": 0
+        },
+        "euler091": {
+            "score": 10,
+            "timestamp": 108354465
         },
         "euler102": {
             "score": 100,
@@ -922,6 +942,10 @@
             "score": 100,
             "timestamp": 108273750
         },
+        "euler014": {
+            "score": 69,
+            "timestamp": 108374042
+        },
         "euler015": {
             "score": 100,
             "timestamp": 108341672
@@ -929,6 +953,10 @@
         "euler016": {
             "score": 100,
             "timestamp": 108278614
+        },
+        "euler019": {
+            "score": 42,
+            "timestamp": 108357875
         },
         "euler020": {
             "score": 100,
@@ -945,6 +973,22 @@
         "euler027": {
             "score": 100,
             "timestamp": 108348634
+        },
+        "euler030": {
+            "score": 100,
+            "timestamp": 108370783
+        },
+        "euler035": {
+            "score": 100,
+            "timestamp": 108369265
+        },
+        "euler036": {
+            "score": 100,
+            "timestamp": 108366317
+        },
+        "euler037": {
+            "score": 100,
+            "timestamp": 108363299
         },
         "euler187": {
             "score": 52,
@@ -1464,6 +1508,10 @@
             "score": 100,
             "timestamp": 108349901
         },
+        "euler042": {
+            "score": 100,
+            "timestamp": 108395064
+        },
         "euler102": {
             "score": 100,
             "timestamp": 108190960
@@ -1647,6 +1695,14 @@
         "euler018": {
             "score": 0,
             "timestamp": 0
+        },
+        "euler020": {
+            "score": 100,
+            "timestamp": 108397086
+        },
+        "euler022": {
+            "score": 100,
+            "timestamp": 108394784
         },
         "euler028": {
             "score": 100,
@@ -1899,6 +1955,10 @@
         "euler016": {
             "score": 100,
             "timestamp": 108305870
+        },
+        "euler037": {
+            "score": 100,
+            "timestamp": 108400503
         }
     },
     "deepaksattiraju": {
@@ -2569,6 +2629,10 @@
         "euler002": {
             "score": 100,
             "timestamp": 107924361
+        },
+        "euler003": {
+            "score": 80,
+            "timestamp": 108361148
         }
     },
     "kr_abhinav": {
@@ -3784,6 +3848,26 @@
             "score": 33,
             "timestamp": 108103871
         },
+        "euler029": {
+            "score": 0,
+            "timestamp": 0
+        },
+        "euler030": {
+            "score": 100,
+            "timestamp": 108356099
+        },
+        "euler032": {
+            "score": 100,
+            "timestamp": 108362357
+        },
+        "euler034": {
+            "score": 100,
+            "timestamp": 108365185
+        },
+        "euler035": {
+            "score": 0,
+            "timestamp": 0
+        },
         "euler179": {
             "score": 0,
             "timestamp": 0
@@ -4711,6 +4795,10 @@
         "euler023": {
             "score": 100,
             "timestamp": 108151122
+        },
+        "euler025": {
+            "score": 100,
+            "timestamp": 108357745
         },
         "euler026": {
             "score": 0,
