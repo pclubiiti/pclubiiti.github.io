@@ -24,7 +24,15 @@
         "timestamp": 108683334
     }, 
     "euler007": {
-        "score": 25, 
-        "timestamp": 108685298
+        "score": 100, 
+        "timestamp": 108700137
+    }, 
+    "euler008": {
+        "score": 100, 
+        "timestamp": 108711592
+    }, 
+    "euler009": {
+        "score": 0, 
+        "timestamp": 0
     }
 }

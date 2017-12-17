@@ -67,9 +67,29 @@
         "score": 100, 
         "timestamp": 108696902
     }, 
+    "euler021": {
+        "score": 100, 
+        "timestamp": 108739942
+    }, 
+    "euler022": {
+        "score": 100, 
+        "timestamp": 108703520
+    }, 
+    "euler023": {
+        "score": 100, 
+        "timestamp": 108763010
+    }, 
+    "euler024": {
+        "score": 0, 
+        "timestamp": 0
+    }, 
     "euler026": {
         "score": 100, 
         "timestamp": 108570353
+    }, 
+    "euler027": {
+        "score": 100, 
+        "timestamp": 108702696
     }, 
     "euler028": {
         "score": 100, 
@@ -78,6 +98,14 @@
     "euler030": {
         "score": 100, 
         "timestamp": 108489445
+    }, 
+    "euler034": {
+        "score": 100, 
+        "timestamp": 108704266
+    }, 
+    "euler036": {
+        "score": 100, 
+        "timestamp": 108709189
     }, 
     "euler037": {
         "score": 100, 
@@ -96,8 +124,8 @@
         "timestamp": 108691886
     }, 
     "euler048": {
-        "score": 80, 
-        "timestamp": 108588977
+        "score": 100, 
+        "timestamp": 108700457
     }, 
     "euler055": {
         "score": 100, 
