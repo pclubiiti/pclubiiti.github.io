@@ -32,8 +32,8 @@
         "timestamp": 107824281
     }, 
     "euler009": {
-        "score": 40, 
-        "timestamp": 107726623
+        "score": 100, 
+        "timestamp": 109947358
     }, 
     "euler010": {
         "score": 100, 
@@ -52,8 +52,8 @@
         "timestamp": 107824458
     }, 
     "euler015": {
-        "score": 0, 
-        "timestamp": 0
+        "score": 100, 
+        "timestamp": 109947476
     }, 
     "euler016": {
         "score": 100, 
@@ -64,8 +64,8 @@
         "timestamp": 108070176
     }, 
     "euler018": {
-        "score": 0, 
-        "timestamp": 0
+        "score": 100, 
+        "timestamp": 109947552
     }, 
     "euler020": {
         "score": 100, 
@@ -79,9 +79,21 @@
         "score": 100, 
         "timestamp": 107991011
     }, 
+    "euler023": {
+        "score": 100, 
+        "timestamp": 109947864
+    }, 
+    "euler024": {
+        "score": 100, 
+        "timestamp": 109947783
+    }, 
     "euler025": {
         "score": 100, 
         "timestamp": 108070295
+    }, 
+    "euler027": {
+        "score": 100, 
+        "timestamp": 109947628
     }, 
     "euler028": {
         "score": 50, 
@@ -107,8 +119,16 @@
         "score": 100, 
         "timestamp": 108069704
     }, 
+    "euler037": {
+        "score": 100, 
+        "timestamp": 109948296
+    }, 
     "euler038": {
         "score": 100, 
         "timestamp": 108259081
+    }, 
+    "euler047": {
+        "score": 100, 
+        "timestamp": 109948939
     }
 }
