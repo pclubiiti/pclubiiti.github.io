@@ -132,7 +132,7 @@ members = [
       imagealt:"bhor_verma",
       name:"Bhor Verma",
       domain:"Cyber Security",
-      desig:"BTech 3nd Year",
+      desig:"BTech 4th Year",
       social: [
         {
           link: 'https://github.com/K3dves',
